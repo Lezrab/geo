@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espace entre les boutons */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none;
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Effet de transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+  }
